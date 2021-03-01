@@ -4,18 +4,25 @@
 table, th, td {
   border: 1.5px solid black;
 }
+body {
+  text-align: center;
+ }
 td {
   text-align: center;
 }
-
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
+<body>
 <h1>SEIRCast</h1>
 <h2>Current Model Structure</h2>
 <img src="current_model.png" width="844" height="462"></img>
 <h2>Latest Model Predictions</h2>
-<strong>Updated as of 02/18/2021</strong><br>
+<strong>Updated as of 03/01/2021</strong><br>
 <br>
-<table>
+<table class = "center">
 <tr>
 <th>County</th><th>Short-Term Forecasts of Daily Confirmed Cases<br>March 13th, 2021</th><th>Effective Reproduction Number</th><th>Long-Term Forecasts</th>
 <tr>
@@ -153,5 +160,5 @@ td {
 <tr>
 <td>Washington</td><td>Median Prediction: <a href="figures/Washington_daily_confirmed.png">36 cases</a></td><td></td><td></td></tr>
 </table>
-
+</body>
 </html>
